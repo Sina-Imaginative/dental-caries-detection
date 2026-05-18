@@ -128,19 +128,19 @@ Standard object detection outputs bounding boxes — rectangular regions around 
 
 **Confusion Matrix**
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](Results/confusion_matrix.png)
 
 **F1 Score Curve**
 
-![F1 Curve](results/BoxF1_curve.png)
+![F1 Curve](Results/BoxF1_curve.png)
 
 **Precision-Recall Curve**
 
-![PR Curve](results/BoxPR_curve.png)
+![PR Curve](Results/BoxPR_curve.png)
 
 **Sample Predictions**
 
-![Predictions](results/val_batch0_pred.jpg)
+![Predictions](Results/val_batch0_pred.jpg)
 
 ---
 
