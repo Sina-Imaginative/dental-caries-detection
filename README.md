@@ -220,46 +220,26 @@ All caries are treated as a single class regardless of depth (enamel vs dentine 
 
 ## How to Run
 
-### 1. Clone the repository
+### Requirements
 
 ```bash
-git clone https://github.com/Sina-Imaginative/dental-caries-detection-yolov8
-cd dental-caries-detection-yolov8
+pip install ultralytics gradio pillow
 ```
 
-### 2. Install dependencies
+### Run the App
 
-```bash
-pip install ultralytics roboflow gradio pillow
-```
-
-### 3. Download the dataset
-
-```python
-from roboflow import Roboflow
-rf = Roboflow(api_key="YOUR_API_KEY_HERE")
-project = rf.workspace("sina-us3z2").project("caries-5bj28-r0zdf")
-version = project.version(1)
-dataset = version.download("yolov8")
-```
-
-### 4. Run training
-
-```bash
-yolo segment train \
-  data=/content/Caries-1/data.yaml \
-  model=yolov8n-seg.pt \
-  epochs=50 \
-  imgsz=640 \
-  batch=16 \
-  name=caries_detector
-```
-
-### 5. Run inference app
+1. Download `best.pt` and `caries_app.py` from this repository
+2. Place both files in the same folder
+3. Run:
 
 ```bash
 python caries_app.py
 ```
+
+4. Open the local URL in your browser
+5. Upload a dental X-ray and click **Detect Caries**
+
+> No GPU required. Runs on CPU.
 
 ### Environment
 
