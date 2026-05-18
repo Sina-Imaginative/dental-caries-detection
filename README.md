@@ -318,7 +318,7 @@ Together these demonstrate two complementary AI paradigms — detection for prec
 Interests: Dental AI, Medical Informatics, Clinical Decision Support
 
 - GitHub: [@Sina-Imaginative](https://github.com/Sina-Imaginative)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- LinkedIn: www.linkedin.com/in/sina-memarzadeh-4980603b8
 
 ---
 
